@@ -5,7 +5,7 @@ editor_options:
   chunk_output_type: inline
 ---
 
-Ramens with the best taste would bring us the best mood of the day! It's time to discover the top-rated ramens and make them on your next menu no matter you are busy or not! 
+Ramens with the best taste would bring us the best mood of the day! It's time to discover the top-rated ramen and make them on your next menu whether you are busy or not! 
 
 ![](laksa.jpg)
 *Image from:* [*tnp*](https://tnp.sg/) Package of **Prime Taste Wholegrain Laksa LaMian**
@@ -25,7 +25,7 @@ The table below shows the **NO.1 Ramen** rated on the RAMEN RATER in different y
 | Indomie     | Special Fried Curly Noodle         | Pack      | Indonesia   | 2012     |
 
 <br/>
-Singapore clearly wins the game, but what about the performance of the ramens from other countries? We have picked out all ramens that **ranking from 4-5**, to see where do our top-rated ramens from:
+Singapore clearly wins the game, but what about the performance of the ramen from other countries? We have picked out all ramens that **ranking from 4-5**, to see where our top-rated ramens come from:
 
 ```{R, include=TRUE, echo=FALSE, message=FALSE, results='hide', fig.keep='all', warning=FALSE} 
 library(readxl)
@@ -46,17 +46,17 @@ ggplot(toprating_country, aes(x = reorder(Country, +Ramen), y= Ramen,fill=Ramen)
 
 ```
 
-From this bargraph, we did see that you are very hard to get an unsatisfied ramen! Wihle we also see that Japan, Taiwan, South Korea and Mainland China are in the list, these countries/regions shared a long history of comsuming Ramen, which proved that practice makes the best. 
+From this bar-graph, we did see that you are very hard to get an unsatisfied ramen! While we also see that Japan, Taiwan, South Korea, and Mainland China are on the list, these countries/regions shared a long history of consuming Ramen, which proved that practice makes the best. 
 
 <br/>
 
 More importantly, let's inspect the performance of different brands.  
-Below shows the distribution of our top-rated ramen between different brands, point to different areas to see the number of top-rated ramen they have!
+Below shows the distribution of our top-rated ramen between different brands, point to different areas to see the number of top-rated ramens they have!
 
 ```{r, out.width="100%",include=TRUE, echo=FALSE, message=FALSE, results='hide', fig.keep='all', warning=FALSE}
 knitr::include_url("myFile.html", height="540px")
 ```
-This chart only annotated the brands that has more than 10 ramens on the list. Nissin is outstanding among the brands. Which may due to its long  history starts from 1950's and the fantastic tastes.
+This chart only annotated the brands that have more than 10 ramen on the list. Nissin is outstanding among the brands. This may be due to its long history starting from the 1950s and its fantastic tastes.
 
 <img src="nissin01.jpg" width="200">  
 

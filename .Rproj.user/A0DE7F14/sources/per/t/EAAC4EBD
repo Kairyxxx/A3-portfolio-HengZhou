@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1668462368976.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1989624919",
+    "id" : "EAAC4EBD",
+    "lastKnownWriteTime" : 1668462455,
+    "last_content_update" : 1668462450336,
+    "path" : "M:/A3-portfolio-HengZhou/content/post/2020-12-01-r-rmarkdown/index.Rmd",
+    "project_path" : "content/post/2020-12-01-r-rmarkdown/index.Rmd",
+    "properties" : {
+        "cursorPosition" : "34,40",
+        "last_setup_crc32" : "",
+        "scrollLine" : "15"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
