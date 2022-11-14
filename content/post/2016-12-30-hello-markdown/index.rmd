@@ -1,6 +1,6 @@
 ---
 date: "2022-11-11"
-title: Best Ramens
+title: Best Instant Ramen
 editor_options: 
   chunk_output_type: inline
 ---

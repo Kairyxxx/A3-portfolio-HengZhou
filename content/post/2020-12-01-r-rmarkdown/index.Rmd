@@ -1,5 +1,5 @@
 ---
-title: "Ramens!"
+title: "Ramen!"
 author: "Zheng Zhou"
 date: 2022-11-12
 categories: ["R"]
@@ -15,7 +15,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 ![](Ramen.jpg)
 *Image from:* [*deliciouslyorkshire*](https://deliciouslyorkshire.co.uk/recipes/chicken-ramen/)
 
-Ramen is an oriental noodle dish. It is Chinese-style wheat noodles served in broth. It was very popular as a family dish or at restaurants. However, with people getting busier every day, convenient packages of ramen have been developed. It comes together with the noodle, spices, and packaged sauce. This allows us to make our own delicious ramen with almost zero cooking skills.
+Ramen is an oriental noodle dish. It is Chinese-style wheat noodles served in broth. It was very popular as a family dish or at restaurants. However, with people getting busier every day, convenient packages of instant ramen have been developed. It comes together with the noodle, spices, and packaged sauce. This allows us to make our own delicious ramen with almost zero cooking skills.
 
 
 ```{r, include=TRUE, echo=FALSE, message=FALSE, results='hide', fig.keep='all'}
