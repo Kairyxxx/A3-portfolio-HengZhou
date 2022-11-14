@@ -1,0 +1,37 @@
+---
+title: "Ramens!"
+author: "Zheng Zhou"
+date: 2022-11-12
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+# An overview of ramens made around the world
+
+![](Ramen.jpg)
+*Image from:* [*deliciouslyorkshire*](https://deliciouslyorkshire.co.uk/recipes/chicken-ramen/)
+
+Ramen is an oriental noodle dish. It is Chinese-style wheat noodles served in a broth. It was very popular as a family dish or at restaurants. However, with people getting busier everyday, convinient packages of ramen has been developed. It comes together with the noodle, spicies and packaged sause. This allows us to make our own delicious ramen with almost zero cooking skills.
+
+
+```{r, include=TRUE, echo=FALSE, message=FALSE, results='hide', fig.keep='all'}
+library(rworldmap)
+library(readxl)
+ramens_countries<- read_excel("ramens-countries01.xlsx")
+par(mai=c(0,0,0.2,0), xaxs='i', yaxs='i')
+mapCountryData(joinCountryData2Map(ramens_countries,
+                                   joinCode = 'NAME',
+                                   nameJoinColumn = 'Region'),
+               nameColumnToPlot = 'Ramens',
+               oceanCol = 'lightblue',
+               )
+```
+This plot is showing the numbers of different ramens produced around the world!
+It is surprising that **the US** is one of the biggest producer of ramens, with up to 
+324 different types of ramens produced and sold around the world.
+
+This blog have used the data from [THE RAMEN RATER](https://www.theramenrater.com/) team. It has been running by Hans Lienesch for up to 20 years!

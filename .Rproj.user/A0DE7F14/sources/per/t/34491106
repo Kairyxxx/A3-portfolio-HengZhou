@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1668281722038.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1778349301",
+    "id" : "34491106",
+    "lastKnownWriteTime" : 1668355209,
+    "last_content_update" : 1668355203695,
+    "path" : "M:/RMDtest001/content/post/2016-12-30-hello-markdown/index.rmd",
+    "project_path" : "content/post/2016-12-30-hello-markdown/index.rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "3,15",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
